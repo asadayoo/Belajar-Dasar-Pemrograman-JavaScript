@@ -6,7 +6,9 @@
  * Catatan.
  * Jangan ubah kode apa pun yang sudah tersedia sebelumnya
  */
+// Import fungsi unique sebagai default export dari file utils.mjs
 import unique from './utils.mjs';
+// Import fungsi splitString sebagai named export dari file utils.mjs
 import {splitString } from './utils.mjs';
 
 const string = 'saippuakivikauppias';
